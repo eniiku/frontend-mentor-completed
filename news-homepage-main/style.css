@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root {
+  --pry-soft-orange: hsl(35, 77%, 62%);
+  --pry-soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --dark-grayish-blue: hsl(236, 13%, 42%);
+  --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+body {
+  font-size: 0.95rem;
+  padding: 4rem 10rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Styles for Navbar */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__links a {
+  margin-left: 1.4rem;
+  text-decoration: none;
+  color: var(--dark-grayish-blue);
+
+  transition: color 400ms ease-out 20ms;
+}
+
+.nav__links a:hover {
+  color: var(--pry-soft-red);
+}
