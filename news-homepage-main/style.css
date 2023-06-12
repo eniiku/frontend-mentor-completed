@@ -74,7 +74,7 @@ body {
 }
 
 .main__article p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--dark-grayish-blue);
   line-height: 1.8;
 }
@@ -88,13 +88,20 @@ body {
   padding: 0.8rem 1.2rem;
   background: var(--pry-soft-red);
   color: var(--off-white);
+  cursor: pointer;
+
+  transition: background-color 400ms ease-out 20ms;
+}
+
+.main__article button:hover {
+  background-color: var(--very-dark-blue);
 }
 
 .main__article div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: first baseline;
+  align-items: baseline;
 }
 
 .main__image {
